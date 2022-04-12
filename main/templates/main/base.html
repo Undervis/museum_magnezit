@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'node_modules/bootstrap/dist/css/bootstrap.css' %}">
+    <script defer src="{% static 'node_modules/bootstrap/dist/js/bootstrap.bundle.js' %}"></script>
+    <script defer src="{% static 'node_modules/jquery/dist/jquery.js' %}"></script>
+    <script defer src="{% static 'node_modules/isotope-layout/dist/isotope.pkgd.js' %}"></script>
+    <script defer src="{% static 'grid_new.js' %}"></script>
+    <script defer src="{% static 'clickselector.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'fonts/Activist.css' %}">
+    <link rel="stylesheet" href="{% static 'fonts/BrutalType-Regular.css' %}">
+    <link rel="stylesheet" href="{% static 'accordion.css' %}">
+    <script defer src="{% static 'accordion.js' %}"></script>
+    <script defer src="{% static 'request.js' %}"></script>
+    <style>
+        .form-control:focus {
+            color: #212529;
+            background-color: #fff;
+            border-color: rgba(33, 37, 41, 0.8);
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(57, 58, 59, 0.25);
+        }
+
+        .form-select:focus {
+            color: #212529;
+            background-color: #fff;
+            border-color: rgba(33, 37, 41, 0.8);
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(57, 58, 59, 0.25);
+        }
+
+        .form-floating:focus {
+            color: #212529;
+            background-color: #fff;
+            border-color: rgba(33, 37, 41, 0.8);
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(57, 58, 59, 0.25);
+        }
+    </style>
+</head>
+<body class="bg">
+<div class="loader"></div>
+<div>
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>

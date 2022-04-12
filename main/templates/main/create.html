@@ -1,0 +1,159 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}
+    Создание записи
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            <br>
+            <div class="hstack gap-3">
+                <span class="display-6" style="font-family: Activist">Создание записи</span>
+                <a onclick="javascript:history.back(); return false;" role="button" class="btn btn-outline-dark"
+                   style="font-family: BrutalType" href="/">
+                    <img class="px-1" src="{% static 'icons/arrow-return-left.svg' %}"
+                         style="transform: translateX(-15%);"/>Вернуться
+                    назад</a>
+                <div class="ms-auto">
+                    <button type="submit" class="btn btn-dark">Сохранить запись</button>
+                    <span class="text-danger">{{ error }}</span>
+                </div>
+            </div>
+            <br>
+            <div class="row mb-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="fs-6 text-muted" style="font-family: BrutalType">Обязательные поля</span>
+                        </div>
+                        <div class="card-body">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="titleInput" style="font-family: BrutalType"
+                                       class="form-label">Название</label>
+                                {{ main_form.name }}
+                            </div>
+                            <div class="mb-3">
+                                <label for="descriptionInput" style="font-family: BrutalType"
+                                       class="form-label">Описание</label>
+                                {{ main_form.description }}
+                            </div>
+                            <label for="categoryInput" style="font-family: BrutalType"
+                                   class="form-label">Категория</label>
+                            <div class="hstack gap-2 mb-3">
+                                {{ main_form.category }}
+                            </div>
+                            <label for="fondsInput" style="font-family: BrutalType"
+                                   class="form-label">Фонды<span></span></label>
+                            <div class="hstack gap-2 mb-3">
+                                {{ main_form.fonds }}
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3">
+                                        <label for="storyDateInput" style="font-family: BrutalType" class="form-label">Датировка</label>
+                                        {{ main_form.date_story }}
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3">
+                                        <label for="indexInput" style="font-family: BrutalType"
+                                               class="form-label">Шифр</label>
+                                        {{ main_form.index }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="formFileMultiple" style="font-family: BrutalType" class="form-label">Основное
+                                    фото</label>
+                                {{ main_form.image }}
+                                <img id="basePhoto" src="/{{ photo }}" alt="Фото не загружено"
+                                     class="rounded mt-2 img-fluid img-thumbnail"
+                                     style="max-height: 7rem"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="fs-6 text-muted" style="font-family: BrutalType">Не обязательные поля</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                {{ main_form.isArchived }}
+                                <label for="isArchivedInput" style="font-family: BrutalType"
+                                       class="form-label">Экспонат списан</label>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="commentInput" style="font-family: BrutalType"
+                                       class="form-label">Примечание</label>
+                                {{ main_form.comment }}
+                            </div>
+                            <hr>
+                            <div class="mb-3" id="files">
+                                <div class="accordion accordion-flush" id="accordionFiles">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-files">
+                                            <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-fileOne"
+                                                    aria-expanded="false" aria-controls="flush-fileOne">
+                                                Прикрепить файлы
+                                            </button>
+                                        </h2>
+                                        <div id="flush-fileOne" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-files" data-bs-parent="#accordionFiles">
+                                            <div class="accordion-body">{{ file_form }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr>
+                            <div class="mb-3" id="photos">
+                                <div class="accordion accordion-flush" id="accordionPhotos">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Прикрепить дополнительные фото
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionPhotos">
+                                            <div class="accordion-body">{{ photo_form }}</div>
+                                            <div id="photosGrid" class="row">
+                                                <div class="col-auto">
+                                                    <img id="photo-0" src="..." class="img-fluid rounded mt-2" style="max-height: 7rem" alt="">
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img id="photo-1" src="..." class="img-fluid rounded mt-2" style="max-height: 7rem" alt="">
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img id="photo-2" src="..." class="img-fluid rounded mt-2" style="max-height: 7rem" alt="">
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img id="photo-3" src="..." class="img-fluid rounded mt-2" style="max-height: 7rem" alt="">
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img id="photo-4" src="..." class="img-fluid rounded mt-2" style="max-height: 7rem" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+{% endblock %}

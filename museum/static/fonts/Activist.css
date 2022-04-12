@@ -1,0 +1,14 @@
+/* Copyright (c) 2014 by Gayane Bagdasaryan. All rights reserved. */
+
+@font-face {
+	font-family: 'Activist';
+	src: url('Activist.eot');
+	src:
+	     url('Activist.eot?#iefix') format('embedded-opentype'),
+	     url('Activist.woff2') format('woff2'),
+	     url('Activist.woff') format('woff'),
+	     url('Activist.ttf') format('truetype'),
+	     url('Activist.svg#Activist') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,484 @@
+<changelist name="Changes1" date="1646858144790" recycled="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/node_modules/resolve/test/resolver/symlinked/_/symlink_target/.gitkeep" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/.gitkeep" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/9899dfec-16f6-4769-b83d-b19f5e265f8c.jfif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/9899dfec-16f6-4769-b83d-b19f5e265f8c.jfif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/9899dfec-16f6-4769-b83d-b19f5e265f8c_ch1hRzh.jfif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/9899dfec-16f6-4769-b83d-b19f5e265f8c_ch1hRzh.jfif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/9899dfec-16f6-4769-b83d-b19f5e265f8c_HJoEa2W.jfif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/9899dfec-16f6-4769-b83d-b19f5e265f8c_HJoEa2W.jfif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/1642935600803.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/1642935600803.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_1JdjhuB.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_1JdjhuB.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_5L16i2n.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_5L16i2n.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_ChF9zVI.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_ChF9zVI.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_cj5jyCo.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_cj5jyCo.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_iNbQkZN.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_iNbQkZN.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_kTwtY8l.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_kTwtY8l.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_Nk46FCB.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_Nk46FCB.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_oi4CZJz.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_oi4CZJz.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_pMaaDgQ.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_pMaaDgQ.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_sOegIiQ.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_sOegIiQ.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_tCto4gr.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_tCto4gr.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_UPtiWdd.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_UPtiWdd.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_Vuqk2Cs.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_Vuqk2Cs.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bHASfkKCHY8_ZB8Ooi8.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bHASfkKCHY8_ZB8Ooi8.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bPZivVWO5bvYcA9wEuMBuM_4g1GXUXGt9uDsqhxJ051V5xmfpt0tqdp-Ltln-VU4_4Iihpyi.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bPZivVWO5bvYcA9wEuMBuM_4g1GXUXGt9uDsqhxJ051V5xmfpt0tqdp-Ltln-VU4_4Iihpyi.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bPZivVWO5bvYcA9wEuMBuM_4g1GXUXGt9uDsqhxJ051V5xmfpt0tqdp-Ltln-VU4_Ew0FwX2.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bPZivVWO5bvYcA9wEuMBuM_4g1GXUXGt9uDsqhxJ051V5xmfpt0tqdp-Ltln-VU4_Ew0FwX2.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/bPZivVWO5bvYcA9wEuMBuM_4g1GXUXGt9uDsqhxJ051V5xmfpt0tqdp-Ltln-VU4_V5mVcD3.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/bPZivVWO5bvYcA9wEuMBuM_4g1GXUXGt9uDsqhxJ051V5xmfpt0tqdp-Ltln-VU4_V5mVcD3.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_5KyLa74.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_5KyLa74.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_AuDRWfV.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_AuDRWfV.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_PTIqFkR.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_PTIqFkR.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_RiCLkEC.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_RiCLkEC.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_VvqGaay.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_VvqGaay.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_ywIgZea.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/e8BYAW2ZAXDog8OWJUzp3j9voGzrKvNiGooYA6nPUdlTNFqDugj6FyJ0ULP_lR68_ywIgZea.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/KOT_v_naushnikakh_mem_tiktok.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/KOT_v_naushnikakh_mem_tiktok.gif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/KOT_v_naushnikakh_mem_tiktok_MvQaN9R.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/KOT_v_naushnikakh_mem_tiktok_MvQaN9R.gif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/KOT_v_naushnikakh_mem_tiktok_xAMskdx.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/KOT_v_naushnikakh_mem_tiktok_xAMskdx.gif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/MwrJ0.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/MwrJ0.gif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/no_photo.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/no_photo.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/original.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/original.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/original_9ejwx6W.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/original_9ejwx6W.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/original_Be1mcgt.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/original_Be1mcgt.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/original_sNg2uQQ.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/original_sNg2uQQ.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/original_XdoVMEX.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/original_XdoVMEX.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/qr.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/qr.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/qr_ArT7UiB.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/qr_ArT7UiB.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/static-assets-upload1265107419501107087.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/static-assets-upload1265107419501107087.gif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/static-assets-upload1265107419501107087_kZu6l4R.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/static-assets-upload1265107419501107087_kZu6l4R.gif" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/jquery-ui/images/ui-icons_444444_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/ui-icons_444444_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/jquery-ui/images/ui-icons_555555_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/ui-icons_555555_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/jquery-ui/images/ui-icons_777620_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/ui-icons_777620_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/jquery-ui/images/ui-icons_777777_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/ui-icons_777777_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/jquery-ui/images/ui-icons_cc0000_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/ui-icons_cc0000_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/jquery-ui/images/ui-icons_ffffff_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/ui-icons_ffffff_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_02eifgC.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_02eifgC.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_7H9boMd.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_7H9boMd.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_fIutkM6.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_fIutkM6.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_Hh9G76u.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_Hh9G76u.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_HXCLFoG.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_HXCLFoG.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_JSgC2XF.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_JSgC2XF.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/images/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_W123vGx.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/XEJ5x6pzap_b6jswxnIigF50I7h29EcUPXmEoaQk2IGxrStp8acT1mkfjyXvdPEa_W123vGx.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Доглги_внебюджет.ods" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Доглги_внебюджет.ods" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/media/Документ-2022-02-01-204032.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-02-01-204032.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Документ-2022-02-16-182943.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-02-16-182943.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Документ-2022-02-17-193016.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-02-17-193016.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Документ-2022-03-02-225331.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-03-02-225331.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Документ-2022-03-02-225331_0XillBl.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-03-02-225331_0XillBl.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Документ-2022-03-02-225331_tnQeRxp.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-03-02-225331_tnQeRxp.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Документ-2022-03-02-225331_UQeDLld.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Документ-2022-03-02-225331_UQeDLld.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого.doc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого.doc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_5sUy3y3.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_5sUy3y3.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_6R72Y0k.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_6R72Y0k.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_aldgAZ6.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_aldgAZ6.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_Hrq9Bag.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_Hrq9Bag.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_jOfyoxC.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_jOfyoxC.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_QZjbSPe.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_QZjbSPe.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_YNUPMiX.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_YNUPMiX.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Н_Согласие_на_обработку_персональных_данных_для_взрослого_Z2tiC4H.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Н_Согласие_на_обработку_персональных_данных_для_взрослого_Z2tiC4H.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_3xNSJ8j.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_3xNSJ8j.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_9e3AE58.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_9e3AE58.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_9rpXRrO.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_9rpXRrO.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_aTn8JQy.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_aTn8JQy.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_cP7p9qg.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_cP7p9qg.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_EveAjfz.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_EveAjfz.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_GBXPzMA.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_GBXPzMA.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_lU0vN7g.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_lU0vN7g.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_NbjGacH.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_NbjGacH.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_Pzye5ZQ.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_Pzye5ZQ.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_Q6yk92z.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_Q6yk92z.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_Rc8t9bv.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_Rc8t9bv.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_Uq5FB7H.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_Uq5FB7H.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_vp7FfeU.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_vp7FfeU.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_Zkq4jjs.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_Zkq4jjs.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_ZmKDOFY.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_ZmKDOFY.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Положение_рег._конкурса_по_системному_администрированию_ZoXqBTC.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Положение_рег._конкурса_по_системному_администрированию_ZoXqBTC.docx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="museum/static/files/Р_Согласие_на_обработку_персональных_данных_для_ребенка.docx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Р_Согласие_на_обработку_персональных_данных_для_ребенка.docx" />
+  </binary>
+</changelist>

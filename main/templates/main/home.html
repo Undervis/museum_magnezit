@@ -1,0 +1,185 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}
+    Главная
+{% endblock %}
+{% load mptt_tags %}
+{% block content %}
+    <!--suppress ALL -->
+    <span id="category" hidden>{{ cat }}</span>
+    <div class="container-fluid px-4">
+        <br>
+        <div class="hstack gap-3">
+            <a role="button" href="/"><span class="text-dark display-6 px-3" style="font-family: Activist;">Музей "Магнезит"</span></a>
+            <div class="btn-group mx-1">
+                <a class="btn btn-outline-dark" style="font-family: BrutalType;" href="/create"><img style="transform:
+        translateY(-10%) translateX(-20%);" src="{% static 'icons\plus-lg.svg' %}" width="16" height="16"> Добавить</a>
+            </div>
+            <input type="search" class="quicksearch form-control" style="max-width: 14rem; font-family: BrutalType"
+                   placeholder="Найти экспонат">
+
+            <div class="btn-group sort-btn-group">
+                <a class="btn btn-outline-dark sort-btn" title="В алфавитном пордке" data-sort="name">
+                    <img src="{% static 'icons/sort-alpha-up.svg' %}"></a>
+                <a class="btn btn-outline-dark sort-btn" title="В обратном алфавитном пордке" data-sort="name-rev">
+                    <img src="{% static 'icons/sort-alpha-down.svg' %}"></a>
+                <a class="btn btn-outline-dark sort-btn active" title="Сначала новые" data-sort="date">
+                    <img src="{% static 'icons/calendar2-event.svg' %}">
+                    <img class="ps-1" src="{% static 'icons/arrow-down.svg' %}">
+                </a>
+                <a class="btn btn-outline-dark sort-btn" title="Сначала старые" data-sort="date-rev">
+                    <img src="{% static 'icons/calendar2-event.svg' %}">
+                    <img class="ps-1" src="{% static 'icons/arrow-up.svg' %}">
+                </a>
+            </div>
+
+            <div class="ms-auto">
+                <span class="me-2" style="font-family: BrutalType">
+                    Здравствуйте, <b>
+                    {% if user.first_name %}
+                        {{ user.first_name }}
+                    {% else %}
+                        {{ user.username }}
+                    {% endif %}
+                    </b></span>
+                <a class="btn btn-outline-dark" style="font-family: BrutalType;" role="button" href="{% url 'logout' %}">
+                    <img class="mx-2" style="transform: translateY(-10%) translateX(-30%);"
+                         src="{% static 'icons\door-open.svg' %}">Выйти</a>
+                <a class="btn pe-3 btn-outline-dark" style="font-family: BrutalType;" role="button" href="/admin">
+                    <img class="mx-2" style="transform: translateY(-10%) translateX(-30%);"
+                         src="{% static 'icons\sliders.svg' %}">Панель</a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                {% if items %}
+                    <div class="grid row row-cols-auto">
+                        {% for el in items %}
+                            <div class="col-md-auto my-2">
+                                <div class="{% if el.isArchived %}archived{% else %}not-archived{% endif %} card card-h m-2 grid-item mb-2 bg-light"
+                                     style="max-width: 18rem; cursor: pointer" onclick="location.href='/item/{{ el.id }}'">
+                                    {% if el.isArchived %}
+                                        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger"
+                                              style="font-family: BrutalType;">
+                                            Списано
+                                        </span>
+                                    {% endif %}
+                                    {% if el.comment %}
+                                        <span class="position-absolute top-0 end-50 translate-middle badge rounded-pill bg-primary"
+                                              style="font-family: BrutalType;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ el.comment }}">
+                                            Примечание
+                                        </span>
+                                    {% endif %}
+                                    <img class="card-img-top" style="max-height: 22rem; object-position: 0 0; object-fit: cover;" src="{{ el.image.url }}">
+                                    <div class="card-body">
+                                        <h5 class="card-title name" style="font-family: Activist;">{{ el.name }}</h5>
+                                        <p class="card-text text-wrap"
+                                           style="font-family: BrutalType;">{{ el.description }}</p>
+                                        <div style="display: none;">
+                                            <span class="date">{{ el.time_update|date:"U" }}</span>
+                                            <span>{{ el.index }}</span><br>
+                                            <span>{{ el.date_story }}</span><br>
+                                            <span>{{ el.category }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <span class="alert border-dark" style="font-family: BrutalType">
+                        <img class="mx-2" style="transform: scale(150%) translateY(-10%) translateX(-30%);" src="{% static 'icons\exclamation-octagon-fill.svg' %}">
+                        В этой категории или фонде нет записей
+                    </span>
+                {% endif %}
+            </div>
+            <div class="col-auto" style="max-width: 22rem">
+                <div class="sticky-top">
+                    <div class="card border-dark my-2">
+                        <div class="card-header" style="font-family: Activist;">
+                            <div class="row">
+                                <div class="col-auto  pt-1">
+                                    <span>Категории</span>
+                                </div>
+                                <div class="col">
+                                    <a role="button" style="font-family: BrutalType; margin-left: 5%;"
+                                       class="btn float-end btn-sm btn-outline-dark" href="/admin/main/category/">
+                                        <img class="px-1" src="{% static 'icons/pencil-square.svg' %}"
+                                             style="transform: translateX(-15%);"/>Изменить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accord-item">
+                            <div class="accord-trigger">
+                                <img class="accord-icon" src="{% static 'icons/list.svg' %}"/>
+                                <a class="text-dark accord-header is-checked" id="cat-home" data-category="0" role="button" href="/"
+                                   style="font-family: BrutalType;">
+
+                                    Все записи
+
+                                </a>
+                                <span class="text-muted float-end me-3">Всего: {{ items_count }}</span>
+                            </div>
+                        </div>
+                        <div class="accord pb-2">
+                            {% recursetree cats %}
+                                <div class="accord-item">
+                                    <div class="accord-trigger">
+                                        <img class="accord-icon" src="{% static 'icons/dash.svg' %}"/>
+                                        <a data-level="{{ node.level }}" data-category="{{ node.get_absolute_url }}"
+                                           href="/?category={{ node.get_absolute_url }}" class="text-dark text-truncate accord-header"
+                                           role="button">{{ node.title }}</a></div>
+                                    {% if not node.is_leaf_node %}
+                                        <div class="accord-content ps-4">
+                                            {{ children }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            {% endrecursetree %}
+                        </div>
+                    </div>
+                    <div class="card border-dark">
+                        <div class="card-header" style="font-family: Activist;">
+                            <div class="row">
+                                <div class="col-auto pt-1">
+                                    <span>Фонды</span>
+                                </div>
+                                <div class="col">
+                                    <a role="button" style="font-family: BrutalType;"
+                                       class="btn float-end btn-sm btn-outline-dark" href="/admin/main/fond/">
+                                        <img class="px-1" src="{% static 'icons/pencil-square.svg' %}"
+                                             style="transform: translateX(-15%);"/>Изменить</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="fond-b">
+                                <a data-fond="0" style="cursor: pointer"
+                                   class="fond-item user-select-none is-checked">Все фонды</a>
+                            </div>
+                            {% if fonds %}
+                                {% for f in fonds %}
+                                    <div class="fond-b">
+                                        <a data-fond="{{ f.id }}" style="cursor: pointer"
+                                           class="fond-item text-truncate user-select-none">{{ f.name }}</a>
+                                    </div>
+                                {% endfor %}
+                            {% else %}
+                                <p>Фонды не созданы</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="btn-group-vertical arch-btn-group d-block mt-2" style="background-color: white">
+                        <a data-arch="*" role="button" class="btn arch-btn btn-outline-dark is-checked" style="font-family: BrutalType">Все</a>
+                        <a data-arch=".archived" role="button" class="btn arch-btn btn-outline-dark" style="font-family: BrutalType">Списаны
+                            в архив</a>
+                        <a data-arch=".not-archived" role="button" class="btn arch-btn btn-outline-dark" style="font-family: BrutalType">Не
+                            списанные</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
