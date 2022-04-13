@@ -91,6 +91,39 @@ def item(request, id):
     else:
         can_delete = False
 
+    if request.method == 'POST':
+        file_edit_form = FileEditForm(request.POST, request.FILES)
+        photo_edit_form = PhotoEditForm(request.POST, request.FILES)
+
+        print(request.POST, request.FILES)
+        fs = FileSystemStorage(location='static/media')
+
+        if request.FILES.get('fileEdit'):
+            if file_edit_form.is_valid():
+                uploaded_file = file_edit_form.cleaned_data['fileEdit']
+                file_id = request.POST.get('id')
+                fs.save(uploaded_file, uploaded_file)
+                file = File.objects.get(id=file_id)
+                file.fileDoc = 'static/media/' + uploaded_file.name
+                file.save()
+            else:
+                print(file_edit_form.errors)
+
+        if request.FILES.get('photoEdit'):
+            if photo_edit_form.is_valid():
+                uploaded_file = photo_edit_form.cleaned_data['photoEdit']
+                photo_id = request.POST.get('id-photo-modal')
+                fs.save(uploaded_file, uploaded_file)
+                photo = Photo.objects.get(id=photo_id)
+                photo.filePhoto = 'static/media/' + uploaded_file.name
+                photo.save()
+                return redirect('/item/' + str(id))
+            else:
+                print(photo_edit_form.errors)
+    else:
+        file_edit_form = FileEditForm
+        photo_edit_form = PhotoEditForm
+
     return render(request, 'main/item.html',
                   {'item': item_info,
                    'files': files,
@@ -98,6 +131,8 @@ def item(request, id):
                    'photos': photos,
                    'category': category,
                    'photos_len': photos_len,
+                   'file_edit': file_edit_form,
+                   'photo_edit': photo_edit_form,
                    'cats': cats, 'can_delete': can_delete})
 
 

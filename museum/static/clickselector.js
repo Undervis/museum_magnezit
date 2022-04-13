@@ -33,6 +33,12 @@ $(document).ready(function () {
         })
     }
 
+    $('.photo-modal').each(function () {
+        $(this).on('click', function () {
+            let id = $(this).children('[name=id-photo]').val()
+            $('[name=id-photo-modal]').attr('value', id)
+        })
+    })
 
     for (let i = 0; i < 5; i++) {
         $('[name=form-' + i + '-filePhoto]').on('change', function (input) {

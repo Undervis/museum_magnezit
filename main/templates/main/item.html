@@ -19,8 +19,7 @@
                      style="transform: translateX(-15%);"/>Редактировать</a>
 
             {% if can_delete %}
-                <a role="button" style="font-family: BrutalType" data-bs-toggle="modal" data-bs-target="#deleteModal" class="btn ms-auto btn-outline-danger"
-                   href="/delete/{{ item.id }}">
+                <a role="button" style="font-family: BrutalType" data-bs-toggle="modal" data-bs-target="#deleteModal" class="btn ms-auto btn-outline-danger">
                     <img class="px-1" src="{% static 'icons/trash.svg' %}"
                          style="transform: translateX(-15%);"/>Удалить</a>
                 <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
@@ -38,7 +37,7 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Закрыть
                                 </button>
-                                <form action="/delete/{{ item.id }}" method="post">
+                                <form action="/delete/{{ item.id }}" method="get">
                                     {% csrf_token %}
                                     <input class="btn btn-danger" type="submit" value="Удалить">
                                 </form>
@@ -67,15 +66,24 @@
                             <div class="carousel-item active">
                                 <img src="{{ item.image.url }}"
                                      class="img-fluid w-100 d-block rounded"
-                                     alt="...">
+                                     alt="..."
+                                     style="max-height: 40rem; object-fit: cover; object-position: 0 0 ">
 
                             </div>
                             {% for p in photos %}
                                 <div class="carousel-item">
                                     <img src="{{ p.filePhoto.url }}"
-                                         class="d-block img-fluid rounded w-100" alt="...">
-                                    <a role="button" style="font-family: BrutalType" class="btn btn-outline-dark mt-2" href="/admin/main/photo/{{ p.id }}/change/">
-                                        <img class="px-1" src="{% static 'icons/pencil-square.svg' %}"/></a>
+                                         class="d-block img-fluid rounded w-100" alt="..." style="max-height: 35rem; object-fit: cover; object-position: 0 0 ">
+                                    <a data-bs-toggle="modal" data-bs-target="#photoModal"
+                                       class="btn btn-outline-dark ms-1 mt-2 photo-modal"
+                                       style="font-family: BrutalType" href="#">
+                                        <input type="hidden" name="id-photo" value="{{ p.id }}">
+                                        <img src="{% static 'icons/pencil-square.svg' %}"/>
+                                    </a>
+                                    <a class="btn btn-outline-danger me-1 mt-2 float-end"
+                                       style="font-family: BrutalType" href="/admin/main/photo/{{ p.id }}/delete/">
+                                        <img src="{% static 'icons/trash.svg' %}"/>
+                                    </a>
                                 </div>
                             {% endfor %}
                         </div>
@@ -93,6 +101,30 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Следующий</span>
                         </button>
+                        <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="photoModalLabel">Изменить
+                                            фото</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                    </div>
+                                    <form method="post" enctype="multipart/form-data">
+                                        {% csrf_token %}
+                                        <div class="modal-body">
+                                            {{ photo_edit }}
+                                            <input type="hidden" name="id-photo-modal" value="">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">
+                                                Закрыть
+                                            </button>
+                                            <input class="btn btn-danger" type="submit" value="Изменить">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 {% else %}
                     <img src="{{ item.image.url }}" class="d-block rounded w-100" alt="...">
@@ -146,6 +178,10 @@
                                             <div class="col">
                                                 <img class="px-1" src="{% static 'icons/pin.svg' %}"
                                                      style="transform: translateX(-15%);"/>
+                                                <a href="/admin/main/file/{{ f.id }}/delete/">
+                                                    <img class="px-1" src="{% static 'icons/trash.svg' %}"
+                                                         style="transform: translateX(-15%);"/>
+                                                </a>
                                                 <span class="text-break">{{ f.get_file_name }}</span>
                                             </div>
                                             <div class="col">
@@ -155,13 +191,37 @@
                                                          style="transform: translateX(-15%);"/>
                                                     Скачать
                                                 </a>
-                                                <a href="/admin/main/file/{{ f.id }}/change/"
+                                                <a data-bs-toggle="modal" data-bs-target="#editModal"
                                                    class="me-3 alert-light float-end"
-                                                   style="font-family: BrutalType">
+                                                   style="font-family: BrutalType" href="#">
                                                     <img class="px-1" src="{% static 'icons/pencil-square.svg' %}"
                                                          style="transform: translateX(-15%);"/>
                                                     Изменить
                                                 </a>
+                                                <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="editModalLabel">Изменить
+                                                                    файл</h5>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                                            </div>
+                                                            <form method="post" enctype="multipart/form-data">
+                                                                {% csrf_token %}
+                                                                <div class="modal-body">
+                                                                    {{ file_edit }}
+                                                                    <input type="hidden" name="id" value="{{ f.id }}">
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">
+                                                                        Закрыть
+                                                                    </button>
+                                                                    <input class="btn btn-danger" type="submit" value="Изменить">
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

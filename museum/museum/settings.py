@@ -77,6 +77,8 @@ WSGI_APPLICATION = 'museum.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# Здесь ваши параметры
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',

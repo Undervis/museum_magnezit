@@ -58,7 +58,15 @@ class ItemForm(ModelForm):
 
 
 class FileForm(forms.Form):
-    fileDoc = forms.FileField(widget=FileInput(attrs={
+    fileDoc = FileField(widget=FileInput(attrs={
+        'class': 'form-control my-1',
+        'id': 'filesInput',
+        'style': 'font-family: BrutalType'
+    }))
+
+
+class FileEditForm(forms.Form):
+    fileEdit = FileField(widget=FileInput(attrs={
         'class': 'form-control my-1',
         'id': 'filesInput',
         'style': 'font-family: BrutalType'
@@ -77,7 +85,15 @@ class AuthUserForm(AuthenticationForm, ModelForm):
 
 
 class PhotoForm(forms.Form):
-    filePhoto = forms.FileField(widget=FileInput(attrs={
+    filePhoto = ImageField(widget=FileInput(attrs={
+        'class': 'form-control my-1',
+        'id': 'photosInput',
+        'style': 'font-family: BrutalType'
+    }))
+
+
+class PhotoEditForm(forms.Form):
+    photoEdit = ImageField(widget=FileInput(attrs={
         'class': 'form-control my-1',
         'id': 'photosInput',
         'style': 'font-family: BrutalType'
