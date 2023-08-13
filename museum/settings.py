@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-5+rsc^0f+_*qtx%6*%33mk=%6%w=ts4667d&v7)s@&5x&8-)d=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['176.124.199.23']
+USE_X_FORWARDED_HOST = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+ALLOWED_HOSTS = ['176.124.199.23', 'undervis.ru']
 
 LOGIN_REDIRECT_URL = '/'
 
@@ -41,7 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'mptt',
-    'django_mptt_admin'
+    'django_mptt_admin',
+    'django_extensions',
+    'sslserver'
 ]
 
 MIDDLEWARE = [
@@ -52,7 +57,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'museum.middleware.CustomHeaderMiddleware'
 ]
+
+CSRF_COOKIE_SAMESITE = None
+CSRF_TRUSTED_ORIGINS = ['http://undervis.ru', "https://undervis.ru"]
+CSP_FRAME_ANCESTORS = ['http://undervis.ru', "https://undervis.ru"]
 
 ROOT_URLCONF = 'museum.urls'
 

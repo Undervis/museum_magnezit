@@ -2,8 +2,9 @@ from django.contrib.auth.decorators import login_required, permission_required
 from django.contrib.auth.views import LoginView, LogoutView
 from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse_lazy
-
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.clickjacking import xframe_options_exempt
 from .forms import *
 from .models import *
 
@@ -11,7 +12,6 @@ from .models import *
 class MainLoginView(LoginView):
     template_name = 'registration/login.html'
     form_class = AuthUserForm
-    success_url = reverse_lazy('/')
 
 
 class MainLogout(LogoutView):

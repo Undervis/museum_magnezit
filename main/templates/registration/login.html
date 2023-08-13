@@ -19,7 +19,7 @@
                         </div>
                     {% endif %}
                     <h4 class="h4 mb-2 fw-normal" style="font-family: Activist;">Пожалуйста, войдите</h4>
-                    {% csrf_token %}
+                    
                     <div class="form-floating mb-2">
                         {{ form.username }}
                         <label for="floatingInput" style="font-family: BrutalType;">Логин</label>
@@ -30,6 +30,7 @@
                     </div>
                     <button class="w-100 btn btn-lg btn-dark" style="font-family: Activist;" type="submit">Войти
                     </button>
+                    {% csrf_token %}
                 </form>
             </div>
         </div>
